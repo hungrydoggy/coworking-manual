@@ -44,7 +44,8 @@
 `(v)=>v+1`, `(v)=>{return v+2;}`  
 ```
 (v) => {  // 여러 줄일 때
-  return v + 3;
+  let w = v + 3
+  return w + 4;
 }
 ```
 
