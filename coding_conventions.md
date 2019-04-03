@@ -89,13 +89,13 @@ const animal    = 'Animal';
 const human     = 'Human';
 const anonymous = 'Anonymous';
 
-// 만일 코드가 공백없이 붙어있더라도, 의미적으로 연관이 있는 것 끼리만 정렬 한다.
+// 만일 코드 라인이 서로 빈줄 없이 붙어있더라도, 의미적/형식적으로 연관이 있는 것 끼리만 정렬 한다.
 const name    = 'Bunny';
 const age     = 4;
-const address = 'Rabbit hole';
+const address = 'Rabbit hole';  // 이 라인 기준 위로 3개끼리 정렬됨
 const animal_res    = findAnimal   (name    , age , address   );
 const humna_res     = findHuman    (name    , age , address   );
-const anonymous_res = findAnonymous('noname', 1000, 'no where');
+const anonymous_res = findAnonymous('noname', 1000, 'no where'); // 이 라인 기준 위로 3개끼리 정렬됨
 
 // 숫자는 소숫점 위치를 맞추어 정렬한다.
 const first  = findFirst  ('first one' , 1000   , 'other options'         );
