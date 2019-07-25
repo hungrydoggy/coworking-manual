@@ -55,18 +55,18 @@
 ```
 //import parts
 //// no-local-code import part : 기본이나, npm으로 받은 모듈 들. 정렬은 from 이후 기준, 디렉토리 -> 파일 순으로.
-import uuid from 'uuid/v4';
-import $ from 'jquery';
+import uuid  from 'uuid/v4';
+import $     from 'jquery';
 import fetch from 'node-fetch';
 
 
 //// local-code import part : 로컬에 있는 코드들. 항상 상대적 경로로 작성. 정렬은 from 이후 기준, 디렉토리 -> 파일 순으로. (..이 최우선 그 다음이 .)
 import TextComponent from '../snippet/test/TestComponent';
-import AbcComponent from '../snippet/AbcComponent';
-import GeneralTable from '../snippet/GeneralTable';
-import test_util from './test/test_util';
-import world_test from './test/world';
-import abc from './abc';
+import AbcComponent  from '../snippet/AbcComponent';
+import GeneralTable  from '../snippet/GeneralTable';
+import test_util     from './test/test_util';
+import world_test    from './test/world';
+import abc           from './abc';
 
 
 //// other import part : css나 그림 파일 등등. 순서는 같다.
