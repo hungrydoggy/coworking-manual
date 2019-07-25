@@ -18,6 +18,8 @@
 | | private method | `_camelCase` | 용도가 private (내부 사용) 이면
 | | public variable | `snake_case` |
 | | private variable | `snake_case_` | 용도가 private (내부 사용) 이면
+| etc | local variable | `snake_case` |
+| | parameter | `snake_case` |
 
 # 코드 작성
 ## 기본 규칙
